@@ -57,7 +57,6 @@
             background-color: green;
             margin: 10px;
             float: left;
-          
         }
 
         .content {
@@ -92,29 +91,56 @@
             background-color: cadetblue;
         }
 
+        .cards {
+            margin-left: auto;
+            margin-right: auto;
+            width: 440px;
+        }
+
         .card-one {
             width: 200px;
             height: 200px;
-            background-color: gray;
+            background-color: green;
             margin: 10px;
+            float: left;
+        }
+
+        .card-box {
+            float: left;
         }
 
         .card-two {
             width: 200px;
             height: 100px;
-            background-color: chocolate;
+            background-color: coral;
             margin: 10px;
         }
 
-        .card-one {
-            float: right;
+                
+        .header-three {
+            background-color: olive;
         }
-        
-        .img {
+
+        .thumb-one {
+            width: 170px;
+            height: 170px;
+            background-color: rgb(53, 15, 156);
+            margin: 15px;
             float: left;
+        }
+
+        .thumb-two {
+            width: 200px;
+            height: 80px;
+            background-color:burlywood;
+            margin: 15px;
+        }
+               
+        .avatar {
+            float: right;
         }            
 
-        .cards {
+        .thumbs {
             float: right;
         }
 
@@ -150,13 +176,22 @@
     <div class="header-two">
         <div class="cards">
             <div class="card-one">1</div>
-            <div class="img">
+            <div class="card-box">
                 <div class="card-two">2</div>
                 <div class="card-two">3</div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <div class="header-three">
+        <div class="thumbs">
+            <div class="thumb-one">1</div>
+            <div class="avatar">
+                <div class="thumb-two">2</div>
+                <div class="thumb-two">3</div>
             </div>
         </div>
         <div class="clearfix"></div>
     </div>
-    
 </body>
 </html>
